@@ -24,6 +24,8 @@
 | [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 15 | 5 | Domain Name Length Frequency |
 | [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 16 | 1 | Average Domain Name Entropy |
 | [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 17 | 5 | Domain Name Entropy Frequency |
+| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 17 | 1 | Number of SMB Connection |
+| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 17 | 1 | MITM Attempt |
 
 > Bağlantı sayıları hesaplanırken karşılıklı tekil bağlantıları elde etmek için **full_duplex** adlı fonksiyon kullanılmıştır.
 ```python
