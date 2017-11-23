@@ -7,7 +7,8 @@
 
 | Status | Id | Size | Feature |
 | ------ | ------ | ------ | ------ |
-| <input type="checkbox"> | 1 | 1 | Number of ICMP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-Yellow.svg)](https://shields.io/)
+ | 1 | 1 | Number of ICMP Connections |
 | [ ] | 2 | 1 | Number of TCP Connections |
 | [ ] | 3 | 1 | Number of UDP Connections |
 | [ ] | 4 | 1 | Number of HTTP Connections |
