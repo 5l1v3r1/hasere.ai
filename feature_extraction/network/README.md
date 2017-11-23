@@ -46,7 +46,7 @@ def full_duplex(p):
 	return sess
 ```
 
-#### Number of ICMP Connections
+### Number of ICMP Connections
 Kurulan tüm ICMP bağlantılarının sayısıdır. ICMP'de varsayılan olarak connection kurulmadığından karşılıklı IP adresleri ve ICMP Request ve Response paketleri baz alınarak hesaplanmıştır.
 
 ```python
@@ -56,7 +56,7 @@ for session in sessions:
         self.number_of_icmp_connections += 1
 ```
 
-#### Number of TCP Connections
+### Number of TCP Connections
 Kurulan tüm TCP bağlantılarının sayısıdır.
 
 ```python
@@ -66,7 +66,7 @@ for session in sessions:
         self.number_of_icmp_connections += 1
 ```
 
-#### Number of UDP Connections
+### Number of UDP Connections
 Kurulan tüm UDP bağlantılarının sayısıdır. UDP'de varsayılan olarak connection kurulmadığından karşılıklı IP adresleri baz alınarak hesaplanmıştır.
 
 ```python
@@ -76,7 +76,7 @@ for session in sessions:
         self.number_of_icmp_connections += 1
 ```
 
-#### Number of HTTP Connections
+### Number of HTTP Connections
 Kurulan tüm HTTP bağlantılarının sayısıdır.
 
 ```python
@@ -94,7 +94,7 @@ for session in sessions:
 self.number_of_http_connections = len(filter(lambda a:a !=0, http_sessions))
 ```
 
-#### Number of SMTP Connections
+### Number of SMTP Connections
 Kurulan tüm SMTP bağlantılarının sayısıdır.
 
 ```python
@@ -112,7 +112,7 @@ for session in sessions:
 self.number_of_smtp_connections = len(filter(lambda a:a !=0, smtp_sessions))
 ```
 
-#### Number of IRC Connections
+### Number of IRC Connections
 Kurulan tüm IRC bağlantılarının sayısıdır.
 
 ```python
@@ -130,7 +130,7 @@ for session in sessions:
 self.number_of_irc_connections = len(filter(lambda a:a !=0, irc_sessions))
 ```
 
-#### Number of Distinct IP Address
+### Number of Distinct IP Address
 Haberleşilen tekil IP sayısıdır.
 
 ```python
@@ -141,7 +141,7 @@ for packet in self.pcap:
 self.number_of_distinct_ip_addresses = len(ip_list)
 ```
 
-#### Number of Distinct UDP Destination Ports
+### Number of Distinct UDP Destination Ports
 Haberleşilen tekil UDP hedef port sayısıdır.
 
 ```python
@@ -152,7 +152,7 @@ for packet in self.pcap:
 self.number_of_distinct_udp_dst_ports = len(distinct_udp_dst_ports)
 ```
 
-#### Number of Hosts
+### Number of Hosts
 DNS sorgusu yapılarak öğrenilen toplam IP adresi sayısıdır.
 
 ```python
@@ -165,10 +165,10 @@ for packet in self.pcap:
                     self.number_of_hosts += 1
 ```
 
-#### Number of Hosts with Reverse DNS
+### Number of Hosts with Reverse DNS
 Reverse DNS sorgusu yapılan toplam IP sayısıdır.
 
-#### Number of DNS Requests
+### Number of DNS Requests
 Toplam DNS sorgusu sayısıdır.
 
 ```python
@@ -179,7 +179,7 @@ for packet in self.pcap:
             self.number_of_dns_requests += 1
 ```
 
-#### Number of Domains
+### Number of Domains
 DNS sorgusu yapılan toplam domain sayısıdır.
 
 ```python
