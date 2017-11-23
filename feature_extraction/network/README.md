@@ -1,7 +1,7 @@
 
-# Network Features
+# Network Features [![Generic badge](https://img.shields.io/badge/14-Waiting-yellow.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/1-Failed-red.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/2-New-blue.svg)](https://shields.io/)
 
-İncelenen dosyaların network etkinliklerine ait özellikler
+İncelenen dosyalara ait Network etkinliklerine ait özellikler ve bu özelliklerin Cuckoo raporundan çıkarılması için oluşturulmuş fonksiyonlar listekenmiştir.
 
 # Features
 
