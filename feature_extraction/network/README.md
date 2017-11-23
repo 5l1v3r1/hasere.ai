@@ -7,22 +7,21 @@
 
 | Status | Id | Size | Feature |
 | ------ | ------ | ------ | ------ |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-Yellow.svg)](https://shields.io/)
- | 1 | 1 | Number of ICMP Connections |
-| [ ] | 2 | 1 | Number of TCP Connections |
-| [ ] | 3 | 1 | Number of UDP Connections |
-| [ ] | 4 | 1 | Number of HTTP Connections |
-| [ ] | 5 | 1 | Number of SMTP Connections |
-| [ ] | 6 | 1 | Number of IRC Connections |
-| [ ] | 7 | 1 | Number of Distinct IP Address |
-| [ ] | 8 | 1 | Number of Distinct UDP Destination Ports |
-| [ ] | 9 | 1 | Number of Hosts |
-| [ ] | 10 | 1 | Number of Hosts with Reverse DNS |
-| [ ] | 11 | 1 | Number of DNS Requests |
-| [ ] | 12 | 1 | Number of Domains |
-| [ ] | 13 | 9 | DNS Request Type Frequency |
-| [ ] | 14 | 4 | Domain Level Frequency |
-| [ ] | 15 | 5 | Domain Name Length Frequency |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 1 | 1 | Number of ICMP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 2 | 1 | Number of TCP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 3 | 1 | Number of UDP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 4 | 1 | Number of HTTP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 5 | 1 | Number of SMTP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 6 | 1 | Number of IRC Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 7 | 1 | Number of Distinct IP Address |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 8 | 1 | Number of Distinct UDP Destination Ports |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 9 | 1 | Number of Hosts |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 10 | 1 | Number of Hosts with Reverse DNS |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 11 | 1 | Number of DNS Requests |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 12 | 1 | Number of Domains |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 13 | 9 | DNS Request Type Frequency |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 14 | 4 | Domain Level Frequency |
+| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 15 | 5 | Domain Name Length Frequency |
 
 > Bağlantı sayıları hesaplanırken karşılıklı tekil bağlantıları elde etmek için **full_duplex** adlı fonksiyon kullanılmıştır.
 ```python
