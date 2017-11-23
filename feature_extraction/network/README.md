@@ -3,19 +3,11 @@
 
 İncelenen dosyaların network etkinliklerine ait özellikler
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
 # Features
 
 | Status | Id | Size | Feature |
 | ------ | ------ | ------ | ------ |
-| <h1>ad</h1> | 1 | 1 | Number of ICMP Connections |
+| <input type="checkbox">ad</input> | 1 | 1 | Number of ICMP Connections |
 | [ ] | 2 | 1 | Number of TCP Connections |
 | [ ] | 3 | 1 | Number of UDP Connections |
 | [ ] | 4 | 1 | Number of HTTP Connections |
