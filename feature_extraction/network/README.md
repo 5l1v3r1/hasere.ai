@@ -29,7 +29,7 @@
 | [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 20 | 1 | Average Payload Length |
 | [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 21 | 1 | Average Payload Entropy |
 | [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 22 | 1 | Destination Port Frequency |
-| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 19 | 1 | Total Sended Data |
+| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 23 | 1 | Total Sended Data |
 
 > Bağlantı sayıları hesaplanırken karşılıklı tekil bağlantıları elde etmek için **full_duplex** adlı fonksiyon kullanılmıştır.
 ```python
