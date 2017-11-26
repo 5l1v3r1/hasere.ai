@@ -1,7 +1,7 @@
 
 # Network Features [![Generic badge](https://img.shields.io/badge/0-Failed-red.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/11-Waiting-yellow.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/0-New-blue.svg)](https://shields.io/)
 
-İncelenen dosyalara ait Network etkinliklerine ait özellikler ve bu özelliklerin Cuckoo raporundan çıkarılması için oluşturulmuş fonksiyonlar listelenmiştir.
+İncelenen dosyalara ait Miscelanous olarak adlandırılan özellikler ve bu özelliklerin Cuckoo raporundan çıkarılması için oluşturulmuş fonksiyonlar listelenmiştir.
 
 # Features
 
@@ -28,7 +28,7 @@ Kullanılan tekil DLL dosya sayısıdır.
 ### Resolved top Api Function Frequency
 Her bir DLL den kaç tane fonksiyon çağırıldığını gösteren vektördür.
 
-### Number of Command Executed
+### Number of Commands Executed
 Çalıştırılan toplam komut sayısıdır.
 
 ### Average Number of Command Items
@@ -40,7 +40,7 @@ Oluşturulan toplam servis sayısıdır.
 ### Number of Services Started
 Başlatılan toplam servis sayısıdır.
 
-### Number of Mutex Created
+### Number of Mutexes Created
 Oluşturulan toplam mutex sayısıdır.
 
 ### Average Mutex Name Length
@@ -51,3 +51,6 @@ Zararlının barındırdığı toplam Cuckoo community signature sayısıdır.
 
 ### Matched Signature Frequency
 Zararlının barındırdığı/barındırmadığı imzaların belirtildiği vektördür.
+
+### Average Length of Commands Executed
+Çalıştırılan komutların ortalama uzunluğudur.
