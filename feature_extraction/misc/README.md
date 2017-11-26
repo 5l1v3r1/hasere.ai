@@ -1,7 +1,7 @@
 
-# Network Features [![Generic badge](https://img.shields.io/badge/0-Failed-red.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/11-Waiting-yellow.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/0-New-blue.svg)](https://shields.io/)
+# Miscellaneous Features [![Generic badge](https://img.shields.io/badge/0-Failed-red.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/11-Waiting-yellow.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/0-New-blue.svg)](https://shields.io/)
 
-İncelenen dosyalara ait Miscelanous olarak adlandırılan özellikler ve bu özelliklerin Cuckoo raporundan çıkarılması için oluşturulmuş fonksiyonlar listelenmiştir.
+İncelenen dosyalara ait Miscellaneous olarak adlandırılan özellikler ve bu özelliklerin Cuckoo raporundan çıkarılması için oluşturulmuş fonksiyonlar listelenmiştir.
 
 # Features
 
