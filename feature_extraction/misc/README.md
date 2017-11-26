@@ -1,5 +1,5 @@
 
-# Miscellaneous Features [![Generic badge](https://img.shields.io/badge/0-Failed-red.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/11-Waiting-yellow.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/0-New-blue.svg)](https://shields.io/)
+# Miscellaneous Features [![Generic badge](https://img.shields.io/badge/0-Failed-red.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/11-Waiting-yellow.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/1-New-blue.svg)](https://shields.io/)
 
 İncelenen dosyalara ait Miscellaneous olarak adlandırılan özellikler ve bu özelliklerin Cuckoo raporundan çıkarılması için oluşturulmuş fonksiyonlar listelenmiştir.
 
@@ -18,6 +18,7 @@
 | [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 9 | 1 | Average Mutex Name Length |
 | [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 10 | 1 | Number of Signatures Matched |
 | [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 11 | 110 | Matched Signature Frequency |
+| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 12 | 1 | Average Length of Commands Executed |
 
 ### Number of Resolved Api Functions
 Kullanılan toplam Windows Api fonksiyon sayısıdır.
