@@ -17,12 +17,7 @@ class RegistryFeatures():
 		                       "regkey_read":[],
 		                       "regkey_opened":[],
 		                       "regkey_accessed":[]}
-		
-		#unique count
-		self.unique_number_of_features = {"regkey_written" : 0,
-		                       "regkey_read" : 0,
-		                       "regkey_opened" : 0,
-		                       "regkey_accessed" : 0}
+
 		
 		#normal count
 		self.number_of_features = {"regkey_written" : 0,
@@ -40,21 +35,19 @@ class RegistryFeatures():
 			for key in keys:
 				if has_key(summary,key):
 					self.extracted_data[key].extend(summary[key])
+		self.count_feauteres()
 	
 	def count_feauteres(self):
 		for key in keys:
 			self.number_of_features[key] = len(self.extracted_data[key])
-			self.unique_number_of_features[key] = len(set(self.extracted_data[key]))
 	
 	def show_features(self):
-		print "Number of features(u,n)"
-		for key in self.unique_number_of_features.keys():
-			print key + " --> " + str(self.unique_number_of_features[key]) + " | " + str(self.number_of_features[key])
+		print "Number of features"
+		for key in keys:
+			print key + ": " + str(self.number_of_features[key])
 
-
-path = "sample/report.json"
-rf = RegistryFeatures(path)
-rf.extract_features()
-
-rf.count_feauteres()
-rf.show_features()
+if __name__ == "__main__":
+	path = "/home/frkn/Desktop/malwy/reports/Reports/reports4/report.json"
+	rf = RegistryFeatures(path)
+	rf.extract_features()
+	rf.show_features()
