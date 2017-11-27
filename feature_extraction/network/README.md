@@ -7,29 +7,32 @@
 
 | Status | Id | Size | Feature |
 | ------ | ------ | ------ | ------ |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 1 | 1 | Number of ICMP Connections |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 2 | 1 | Number of TCP Connections |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 3 | 1 | Number of UDP Connections |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 4 | 1 | Number of HTTP Connections |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 5 | 1 | Number of SMTP Connections |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 6 | 1 | Number of IRC Connections |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 7 | 1 | Number of Distinct IP Address |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 8 | 1 | Number of Distinct UDP Destination Ports |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 9 | 1 | Number of Hosts |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 1 | 1 | Number of ICMP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 2 | 1 | Number of TCP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 3 | 1 | Number of UDP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 4 | 1 | Number of HTTP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 5 | 1 | Number of SMTP Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 6 | 1 | Number of IRC Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 7 | 1 | Number of Distinct IP Address |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 8 | 1 | Number of Distinct UDP Destination Ports |
+| [![Generic badge](https://img.shields.io/badge/Test-Failed-red.svg)](https://shields.io/) | 9 | 1 | Number of Hosts |
 | [![Generic badge](https://img.shields.io/badge/Test-Failed-red.svg)](https://shields.io/) | 10 | 1 | Number of Hosts with Reverse DNS |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 11 | 1 | Number of DNS Requests |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 12 | 1 | Number of Domains |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 13 | 9 | DNS Request Type Frequency |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 14 | 4 | Domain Level Frequency |
-| [![Generic badge](https://img.shields.io/badge/Test-Waiting-yellow.svg)](https://shields.io/) | 15 | 5 | Domain Name Length Frequency |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 11 | 1 | Number of DNS Requests |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 12 | 1 | Number of Domains |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 13 | 9 | DNS Request Type Frequency |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 14 | 4 | Domain Level Frequency |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 15 | 5 | Domain Name Length Frequency |
 | [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 16 | 1 | Average Domain Name Entropy |
 | [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 17 | 5 | Domain Name Entropy Frequency |
-| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 18 | 1 | Number of SMB Connections |
-| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 19 | 1 | MITM Attempt |
-| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 20 | 1 | Average Payload Length |
-| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 21 | 1 | Average Payload Entropy |
-| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 22 | 1 | Destination Port Frequency |
-| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 23 | 1 | Total Sended Data |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 18 | 1 | Number of SMB Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 19 | 1 | Number of SSL/TLS Connections |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 20 | 1 | MITM Attempt |
+| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 21 | 1 | Average Payload Length |
+| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 22 | 1 | Average Payload Entropy |
+| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 23 | 5 | Payload Entropy Frequency |
+| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 24 | 1 | Total Sended Data |
+| [![Generic badge](https://img.shields.io/badge/New-Feature-blue.svg)](https://shields.io/) | 25 | 1 | Number of DNS Response |
+| [![Generic badge](https://img.shields.io/badge/Test-Passed-green.svg)](https://shields.io/) | 26 | 1 | Number of Distinct DNS Destination Ports |
 
 > Bağlantı sayıları hesaplanırken karşılıklı tekil bağlantıları elde etmek için **full_duplex** adlı fonksiyon kullanılmıştır.
 ```python
